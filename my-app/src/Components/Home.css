@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:ital,wght@1,100&family=Uncial+Antiqua&display=swap');
+
+#main-home-container{
+    background-color: #303846;
+    letter-spacing: 1.5px;
+    font-family: 'Roboto';
+    font-weight: bolder;
+    height: 650px;
+    width: 100%;
+}
+
+#home-page{
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+    border: 1.25px solid black;
+    border-radius: 5px;
+    background-image: url(/src/Logo/background-art-home.jpg);
+}
+
+@media (max-width: 650px){
+    #home-page{
+        height: 400px;
+    }
+    #main-home-container{
+        height: 580px;
+    }
+}
+
+#collage-1{
+    display: flex;
+    flex-direction: row;
+}
+
+
+#title-home{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    letter-spacing: 1.5px;
+    padding-top: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+#title-h2{
+    color: white;
+}
+
+
+.tat-gallery{
+    height: 450px;
+    width: 355px;
+    margin-top: 25px;
+    margin-left: 30px;
+    border-radius: 5px;
+}
+
+@media (max-width:650px){
+    .tat-gallery{
+        height: 250px;
+        width: 200px;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+}
+

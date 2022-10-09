@@ -1,0 +1,42 @@
+#about-container{
+    height: 250px;
+    width: 800px;
+    margin-top: 15px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 800px){
+    #about-container{
+        height: 500px;
+        width: 500px;
+    }
+    #color-div-1{
+       display: none;
+    }
+}
+
+#header-after-care{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+
+
+.aftercare-p{
+    color: black;
+    text-align: justify;
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+    letter-spacing: 1.5px;
+    padding: 0px 10px 0px 10px;
+}
+
+#color-div-1{
+    height: 5px;
+    width: 800px;
+    background-color: black;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,76 @@
+
+section{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#card2{
+    height: 445px;
+    width: 500px;
+    border: 1px solid black;
+}
+
+#card1{
+    height: 445px;
+    width: 200px;
+    border: 1px solid black;
+    margin-left: 50px;
+     background-color: #303846;
+}
+
+@media (max-width: 800px){
+    #card1{
+        height: 300px;
+        width: 150px;
+    }
+    #card2{
+        height: 300px;
+        width: 250px;
+    }
+    #map{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+#about{
+    text-align: center;
+    padding: 10px 5px 5px 10px;
+    color: white;
+}
+
+#appointment-booking{
+    text-align: center;
+    padding: 10px 5px 5px 10px;
+    color: white;
+}
+
+#contact-container{
+    height: 500px;
+    width: 800px;
+    margin-top: 15px;
+    margin: 0 auto;
+}
+
+.aftercare-p{
+    color: black;
+    text-align: justify;
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+    letter-spacing: 1.5px;
+    padding: 0px 10px 0px 10px;
+}
+
+#color-div-1{
+    height: 5px;
+    width: 800px;
+    background-color: black;
+    margin-bottom: 10px;
+}
+
+#contact-2{
+    display: flex;
+}
