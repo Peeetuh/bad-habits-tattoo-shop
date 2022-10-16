@@ -1,9 +1,12 @@
 import "./AfterCare.css";
 import { Container } from 'react-bootstrap';
-
+import icon from "../Logo/BAd habits.jpg";
+import Footer from "../Components/Footer";
 
 export default function AfterCare() {
     return (
+      <div>
+        <img src={icon} alt="website-logo" id="about-logo"/>
       <section>
         <div id="after-care-container">
         <div id="color-div-1"></div>
@@ -19,5 +22,7 @@ export default function AfterCare() {
         </Container>
         </div>
       </section>
+      <Footer id="about-footer"/>
+      </div>
     );
   }

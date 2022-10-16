@@ -5,34 +5,12 @@ section{
     margin-bottom: 50px;
 }
 
-#card2{
-    height: 445px;
-    width: 500px;
-    border: 1px solid black;
+#map{
+    height: 300px;
+    margin: 0 auto;
+    border: 2px solid black;
 }
 
-#card1{
-    height: 445px;
-    width: 200px;
-    border: 1px solid black;
-    margin-left: 50px;
-     background-color: #303846;
-}
-
-@media (max-width: 800px){
-    #card1{
-        height: 300px;
-        width: 150px;
-    }
-    #card2{
-        height: 300px;
-        width: 250px;
-    }
-    #map{
-        width: 100%;
-        height: 100%;
-    }
-}
 
 
 #about{
@@ -73,4 +51,34 @@ section{
 
 #contact-2{
     display: flex;
+}
+
+#about-logo{
+    height: 20%;
+    width: 20%;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.input-field{
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid black;
+}
+
+textarea{
+    border: 1px solid black;
+    height: 350px;
+}
+
+input{
+    border: 1px solid black;
 }
