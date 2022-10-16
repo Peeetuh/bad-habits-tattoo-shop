@@ -1,21 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:ital,wght@1,100&family=Uncial+Antiqua&display=swap');
-
-#main-home-container{
-    background-color: #303846;
-    letter-spacing: 1.5px;
-    font-family: 'Roboto';
-    font-weight: bolder;
-    height: 650px;
-    width: 100%;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Oswald&family=Roboto:ital,wght@1,100&family=Uncial+Antiqua&display=swap');
 
 #home-page{
     display: flex;
     flex-wrap: wrap;
     height: 500px;
-    border: 1.25px solid black;
+    border-bottom: .1px solid black;
     border-radius: 5px;
-    background-image: url(/src/Logo/background-art-home.jpg);
+    box-shadow: 0px 12px 10px;
 }
 
 @media (max-width: 650px){
@@ -50,9 +43,11 @@
 .tat-gallery{
     height: 450px;
     width: 355px;
-    margin-top: 25px;
-    margin-left: 30px;
+    margin-left: 50px;
     border-radius: 5px;
+    border: 1px solid black;
+    margin-top: 15px;
+    box-shadow: 2px 3px 10px 0px;
 }
 
 @media (max-width:650px){
@@ -64,3 +59,38 @@
     }
 }
 
+#interactive-container{
+    display: flex;
+    position: relative;
+    align-items: center;
+    height: 800px;
+    margin-bottom: 30px;
+}
+
+video{
+    position: absolute;
+    z-index: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#text-lol{
+    color: white;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    z-index: 1;
+}
+
+#art-gallery-header{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 50px;
+    font-family: 'Uncial Antiqua', cursive;
+    box-shadow: 0px 2px 5px 5px;
+}

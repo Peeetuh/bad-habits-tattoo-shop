@@ -1,4 +1,5 @@
 import "./Home.css";
+import Footer from "./Footer";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import "swiper/css";
 import "swiper/css/pagination";
@@ -16,17 +17,19 @@ import img9 from "../Logo/9.jpg";
 import img10 from "../Logo/10.jpg";
 import img11 from "../Logo/11.jpg";
 import img12 from "../Logo/12.jpg";
-
-
-
+import video from "../video/video.mp4";
 
 
 export default function Home() {
     return (
       <div id="main-home-container">
-        <div id="title-container">
-        <div id="title-home"></div>
+
+        <div id="interactive-container">
+        <video src={video} autoPlay loop muted />
+        <span id="text-lol">Bad Habits Tattoo Studio</span>
         </div>
+      <div id="art-gallery-div">
+        <h2 id="art-gallery-header">Art Gallery</h2>
       <section id="home-page">
       <>
       <Swiper
@@ -57,6 +60,8 @@ export default function Home() {
       </Swiper>
     </>
       </section>
+      </div>
+      <Footer />
       </div>
     );
   }
